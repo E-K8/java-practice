@@ -1,7 +1,20 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
+    // instance variable
+    int myAge = 23;
+
+    // static or class variable
+    static int salary = 21000;
+
     public static void main(String[] args) {
+
+        // local variable
+        int age; // declare variable of type int
+        age = 37; // variable assignment
+
+        System.out.println(age);
+
 //        TODO fix bug here
 
 //        System.out.println("Today is the 18th of June. Hey there human!");
@@ -16,6 +29,7 @@ CTRL SHIFT / - block comment
 CTRL / - line comment
 ALT f12 - open terminal
 ALT 9 open git
+CTRL SHIRT A - option to toggle soft wrap
 */
     }
 }
