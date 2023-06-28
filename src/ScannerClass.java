@@ -23,7 +23,7 @@ public class ScannerClass {
     */
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in);
 
         System.out.println("What is your first name?");
         String name = scan.next();
@@ -37,7 +37,7 @@ public class ScannerClass {
 
         System.out.println("Hey " + name + ", you are " + age + " years old");
         System.out.println("and your favourite quote is " + quote);
-
+*/
 
 /*
         Scanner in = new Scanner(System.in);
