@@ -8,3 +8,4 @@
     CTRL SHIRT A - option to toggle soft wrap
     CTRL SHIRT F12 - show/hide all tool windows
     CTRL D - duplicate a line of code
+    CTRL SHIFT A - enter/exit Zen mode
