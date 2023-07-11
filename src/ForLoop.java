@@ -31,5 +31,14 @@ public class ForLoop {
         for (char myChar='a'; myChar<='z'; myChar++) {
             System.out.println(myChar);
         }
+
+        for (int i = 0; i < 5; i++) {
+            if(i==2) {
+//                break;
+                continue; // skips one iteration only
+            }
+            System.out.println("i : "+i);
+
+        }
     }
 }
