@@ -4,7 +4,7 @@ public class NestedLoops {
 //    3. Print pattern 1 22 333 444 55555, each number or number sequence to be stacked under the previous one
 //    4. Print pattern ***** **** *** ** *,each sequence of asterisks to be stacked under the previous one
 //    5. Print a fir tree pattern with asterisks (one, two, three, four, five asterisks stacked in the form or a tree)
-
+//    6. Print 4 rows and 5 columns
 
 /*
     public static void main(String[] args) {
@@ -57,7 +57,7 @@ public class NestedLoops {
     */
 
 //    5.
-
+/*
     public static void main(String[] args) {
         for (int i = 5; i > 0; i--) {
 
@@ -76,6 +76,16 @@ public class NestedLoops {
 //                System.out.print("* ");
 //            }
 
+            System.out.println();
+        }
+    }
+    */
+
+    public static void main(String[] args) {
+        for (int row = 0; row < 4; row++) {
+            for (int col = 0; col < 5; col++) {
+                System.out.print(" (" + row + ", " + col + ") ");
+            }
             System.out.println();
         }
     }
