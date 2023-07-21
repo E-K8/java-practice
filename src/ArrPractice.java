@@ -1,10 +1,10 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrTraverse {
 //    1. Traverse arrays
 //    2. Total, average, max, min, search for number
+//    3. Print array values reversed
 
+public class ArrPractice {
     //    1.
     /*
     public static void main(String[] args) {
@@ -30,6 +30,8 @@ public class ArrTraverse {
     }
     */
 
+    //    2.
+    /*
     public static void main(String[] args) {
         double[] salaries = {23000.71, 45234.45, 63244.11, 18777.25};
 
@@ -62,5 +64,17 @@ public class ArrTraverse {
         System.out.println("The smallest salary being paid currently is: " + min);
         System.out.println("The biggest salary being paid currently is: " + max);
     }
+*/
+
+    //    3.
+    public static void main(String[] args) {
+        int[] numbers = {1,2,3,4,5,6};
+
+        for (int i = numbers.length-1; i >= 0; i--) {
+            System.out.println(numbers[i]);
+        }
+    }
+
+
 }
 
