@@ -24,6 +24,7 @@ public class ArrTwoDim {
 
 
 //    2. Second way to declare and print an array
+    /*
     public static void main(String[] args) {
         int[][] myArray = {
                 {1, 2, 3, 4, 5},
@@ -38,6 +39,32 @@ public class ArrTwoDim {
             }
         }
     }
+*/
 
+//    3. Calculate total for every row of the two-dimensional array, each row being of different length
 
+    public static void main(String[] args) {
+        int[][] arrCalcRows = {
+                {12, 15, 56, 85},
+                {15, 14},
+                {45, 95, 24, 75, 85, 36, 19, 22}
+        };
+
+/*        for (int row = 0; row < arrCalcRows.length; row++) {
+            int total = 0;
+            for (int col = 0; col < arrCalcRows[row].length; col++) {
+                total += arrCalcRows[row][col];
+            }
+            System.out.println(total);
+        }*/
+
+//        the same as ↑, but using enhanced for loop ↓
+        for (int[] arrCalcRow : arrCalcRows) {
+            int total = 0;
+            for (int i : arrCalcRow) {
+                total += i;
+            }
+            System.out.println(total);
+        }
+    }
 }
