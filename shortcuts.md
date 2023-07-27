@@ -10,3 +10,4 @@
     CTRL D - duplicate a line of code
     CTRL SHIFT A - enter/exit Zen mode
     SHIFT F6 - auto rename all variables of the same name
+    ALT CMD (OPTION COMMAND or ALT WINDOWS) - vertical selection of text with mouse

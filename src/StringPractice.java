@@ -1,5 +1,6 @@
 public class StringPractice {
     public static void main(String[] args) {
+        /*
         String string1 = "Java17";
         System.out.println(string1);
 
@@ -30,5 +31,26 @@ public class StringPractice {
         System.out.println("First index of X: " + mySentence1.indexOf("x"));
 
         System.out.println("Last index of E: " + mySentence1.indexOf("e"));
+        */
+
+        // methods split(), substring(), toCharArray()
+        // 0 1 2 3 4 5 6 7 8 9
+        // j a v a   i s   a w esome
+
+        String phrase = "java,is,awesome";
+        System.out.println(phrase.substring(8)); // will print "awesome"
+        System.out.println(phrase.substring(5));
+        System.out.println(phrase.substring(5, 7)); // will print "is" only
+
+        String[] words = phrase.split(",");
+        System.out.println(words.length);
+        for (String word : words) {
+            System.out.println(word);
+        }
+
+        char[] myChars = phrase.toCharArray();
+        for (char c : myChars) {
+            System.out.println(c);
+        }
     }
 }
