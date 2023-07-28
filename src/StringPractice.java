@@ -54,6 +54,7 @@ public class StringPractice {
             }
             */
 
+        /*
         String emptyStr = " ";
         System.out.println(emptyStr.length());
         System.out.println(emptyStr.isEmpty());
@@ -76,8 +77,27 @@ public class StringPractice {
         System.out.println("marvellous".replaceFirst("l", "*"));
         System.out.println("curious".contains("iou"));
 
+*/
+        // Stringbuilder
+/*
+        0 1 2 3
+        j a v a
+*/
+        StringBuilder sb = new StringBuilder("java");
+        System.out.println(sb);
 
+        sb.insert(1, "**");
+        System.out.println(sb);
+        sb.delete(1, 3);
+        System.out.println(sb);
 
+        sb.setCharAt(1, '*');
+        System.out.println(sb);
 
+        sb.append(" is awesome!");
+        System.out.println(sb);
+        System.out.println(sb.substring(0, 4));
+
+        System.out.println(sb.reverse());
     }
 }
