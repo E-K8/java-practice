@@ -36,7 +36,7 @@ public class StringPractice {
         // methods split(), substring(), toCharArray()
         // 0 1 2 3 4 5 6 7 8 9
         // j a v a   i s   a w esome
-
+/*
         String phrase = "java,is,awesome";
         System.out.println(phrase.substring(8)); // will print "awesome"
         System.out.println(phrase.substring(5));
@@ -51,6 +51,33 @@ public class StringPractice {
         char[] myChars = phrase.toCharArray();
         for (char c : myChars) {
             System.out.println(c);
-        }
+            }
+            */
+
+        String emptyStr = " ";
+        System.out.println(emptyStr.length());
+        System.out.println(emptyStr.isEmpty());
+
+        String nullStr = null;
+        System.out.println(nullStr);
+
+        String blankStr = "      ";
+        System.out.println(blankStr.isBlank());
+        System.out.println(blankStr.isEmpty());
+
+        String strOne = "   Failure    ";
+        String strTwo = " is not an option.";
+        String strThree = strOne.trim().concat(strTwo);
+        System.out.println(strThree);
+        System.out.println(strThree.toUpperCase());
+        System.out.println("Java".startsWith("J"));
+        System.out.println("Java".endsWith("A"));
+        System.out.println("adorable".replace("a", "*"));
+        System.out.println("marvellous".replaceFirst("l", "*"));
+        System.out.println("curious".contains("iou"));
+
+
+
+
     }
 }
