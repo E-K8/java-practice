@@ -1,3 +1,5 @@
+package basics;
+
 public class WrapperClass {
     public static void main(String[] args) {
         System.out.println("byte min: " +Byte.MIN_VALUE + ", byte max: " + Byte.MAX_VALUE);

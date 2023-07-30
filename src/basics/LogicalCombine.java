@@ -1,3 +1,5 @@
+package basics;
+
 public class LogicalCombine {
     public static void main(String[] args) {
      /*   if (true && true) {

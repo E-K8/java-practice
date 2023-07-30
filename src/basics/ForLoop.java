@@ -1,3 +1,5 @@
+package basics;
+
 public class ForLoop {
     public static void main(String[] args) {
         for (int incCounter = 0; incCounter <= 5; incCounter++) {

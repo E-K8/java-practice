@@ -1,3 +1,5 @@
+package basics;
+
 public class DebugIntro {
     public static void main(String[] args) {
         int b = 35;

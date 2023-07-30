@@ -1,3 +1,5 @@
+package basics;
+
 public class Ternary {
     public static void main(String[] args) {
         // expression ? choice 1 : choice 2;

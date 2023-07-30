@@ -1,3 +1,5 @@
+package basics;
+
 public class NestedLoops {
 //    1. Print nested loops separated by lines
 //    2. Print multiplication table for numbers 1,2,3,4,5

@@ -1,3 +1,5 @@
+package basics;
+
 public class Char {
     /*
     letter A
