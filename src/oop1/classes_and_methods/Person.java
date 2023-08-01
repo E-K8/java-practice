@@ -1,4 +1,4 @@
-package oop1.classes_and_objects;
+package oop1.classes_and_methods;
 
 public class Person {
 

@@ -1,4 +1,4 @@
-package oop1.classes_and_objects;
+package oop1.classes_and_methods;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +11,6 @@ public class Main {
         String fullName = tom.fullName();
         System.out.println(fullName);
 
-        tom.eat("rice");
+        tom.eat("salad");
     }
 }
