@@ -1,4 +1,4 @@
-package oop1.passbyvalue;
+package oop1.pass_by_value;
 
 public class PassByValue {
   public void changeInteger(int x) {

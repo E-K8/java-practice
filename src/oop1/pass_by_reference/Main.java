@@ -1,6 +1,4 @@
-package oop1.passbyreference;
-
-import oop1.passbyvalue.PassByValue;
+package oop1.pass_by_reference;
 
 import java.util.Arrays;
 
