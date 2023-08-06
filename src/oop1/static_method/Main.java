@@ -4,6 +4,12 @@ import javax.print.attribute.standard.MediaSize;
 
 public class Main {
   public static void main(String[] args) {
+    OtherClass other = new OtherClass();
+    OtherClass.print();
+  }
+
+
+/*  public static void main(String[] args) {
     // Instance of class vs class itself:
     // Static method: class itself
     sayHi();
@@ -15,13 +21,13 @@ public class Main {
 
     OtherClass o = new OtherClass();
     o.sayNo();
-  }
+  }*/
 
-  static void sayHi() {
+/*  static void sayHi() {
     System.out.println("Hi");
   }
 
   void sayBye() {
     System.out.println("Bye");
-  }
+  }*/
 }
