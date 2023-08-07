@@ -1,11 +1,35 @@
 package oop1.static_method;
 
+import oop1.static_example.Person;
+
 import javax.print.attribute.standard.MediaSize;
 
 public class Main {
   public static void main(String[] args) {
+    OtherClass personObj = new OtherClass();
+    OtherClass.Read1 read1 = personObj.new Read1();
+
+    OtherClass.Read2 read2 = new OtherClass.Read2();
+
+    // anonymous class
+
+    OtherClass anonymousPerson = new OtherClass(){
+      @Override
+      void walk() {
+//        super.walk();
+        System.out.println("walk in the forest");
+      }
+    };
+    anonymousPerson.walk();
+
+
+
+/*
+
     OtherClass other = new OtherClass();
     OtherClass.print();
+*/
+
   }
 
 
