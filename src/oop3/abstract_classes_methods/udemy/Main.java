@@ -1,4 +1,4 @@
-package oop3.abstract_classes_methods;
+package oop3.abstract_classes_methods.udemy;
 
 public class Main {
   public static void main(String[] args) {
