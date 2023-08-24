@@ -14,18 +14,18 @@ public class EnumsInside {
   }
 
   public static void main(String[] args) {
-    Flavour flav = Flavour.MINT;
+    Flavour taste = Flavour.MINT;
 
-    flav.printFlavour();
+    taste.printFlavour();
     Flavour.getVanilla();
 
 
     /*
-    if (flav == flav.VANILLA) {
+    if (taste == taste.VANILLA) {
       System.out.println("It's vanilla");
-    } else   if (flav == flav.CHOCOLATE) {
+    } else   if (taste == taste.CHOCOLATE) {
       System.out.println("It's chocolate");
-    } else   if (flav == flav.MINT) {
+    } else   if (taste == taste.MINT) {
       System.out.println("It's mint");
     } else {
       System.out.println("It's strawberry");
