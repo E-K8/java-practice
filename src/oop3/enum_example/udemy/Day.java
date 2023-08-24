@@ -1,4 +1,4 @@
-package oop3.enum_example;
+package oop3.enum_example.udemy;
 
 public enum Day {
   MONDAY (11) {
