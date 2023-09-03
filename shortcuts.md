@@ -11,3 +11,4 @@
     CTRL SHIFT A - enter/exit Zen mode
     SHIFT F6 - auto rename all variables of the same name
     ALT CMD (OPTION COMMAND or ALT WINDOWS) - vertical selection of text with mouse
+    F5 when clicking on a class name will open a dialogue of copying this class
