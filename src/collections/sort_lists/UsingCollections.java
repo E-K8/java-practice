@@ -23,10 +23,5 @@ public class UsingCollections {
 
     Collections.sort(list, (s1,s2)->Integer.compare(s1.charAt(1), s2.charAt(1)));
     System.out.println("Array list sorted by the second characters: " + list);
-
-
-
-
   }
-
 }
