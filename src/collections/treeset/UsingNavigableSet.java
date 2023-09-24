@@ -26,7 +26,5 @@ public class UsingNavigableSet {
         System.out.println("pollFirst: " + set.pollFirst());
         System.out.println("pollLast: " + set.pollLast());
         System.out.println("set: " + set);
-
-
     }
 }
