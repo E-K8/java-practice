@@ -2,7 +2,6 @@ package date_time_math;
 
 import java.time.*;
 import java.util.Map;
-import java.util.Objects;
 import java.util.Set;
 
 public class TimeZones {
@@ -68,6 +67,5 @@ public class TimeZones {
 
     System.out.println(ZoneOffset.MIN);
     System.out.println(ZoneOffset.MAX);
-
   }
 }
