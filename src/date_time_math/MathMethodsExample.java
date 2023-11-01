@@ -29,5 +29,24 @@ public class MathMethodsExample {
     System.out.println("Copy sign from -4 to 3: " + Math.copySign(3, -4));
 
     System.out.println("Math.random is: " + Math.random()); // returns value between 0.0 and 0.9999999
+
+//    generate random number between 0 and 10
+    double randomNumber = Math.random();
+    double randomDoubleBetweenZeroAndTen = randomNumber * 11;
+    int randomIntegerBetweenZeroAndTen = (int) (randomDoubleBetweenZeroAndTen);
+
+    System.out.println(randomNumber);
+    System.out.println(randomDoubleBetweenZeroAndTen);
+    System.out.println(randomIntegerBetweenZeroAndTen);
+
+// generate a random number
+    int min = 5;
+    int max = 11;
+    int randomBetweenMinAndMax = (int) (Math.random() * (max - min)) + min;
+    System.out.println(randomBetweenMinAndMax);
+
+    double randomDoubleBetween46And23 = randomNumber * (46 - 23);
+    int randomIntegerBetween46and23 = (int) (randomDoubleBetween46And23);
+    System.out.println(randomIntegerBetween46and23);
   }
 }
