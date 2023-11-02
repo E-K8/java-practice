@@ -21,10 +21,19 @@ public class GuessTheNumber {
 
       if (guess > random) {
         System.out.println("Your number is bigger than our number.");
+
         displayLives(--lives);
+
+        if (lives > 0) {
+          System.out.println("Give it another go!");
+        }
       } else if (guess < random) {
         System.out.println("Your number is smaller than our number.");
         displayLives(--lives);
+
+        if (lives > 0) {
+          System.out.println("Give it another go!");
+        }
       } else {
         System.out.println("Yes! You guessed the number!");
         break;
