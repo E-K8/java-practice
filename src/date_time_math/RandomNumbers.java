@@ -28,6 +28,8 @@ public class RandomNumbers {
     int range = max - min;
     int rand = (int) (Math.random() * range) + min;
     return rand;
+//    or use inline variable as recommended by the IDE
+//    return (int) (Math.random() * range) + min;
   }
 
   static int getRandomNumber_04(int min, int max) {
