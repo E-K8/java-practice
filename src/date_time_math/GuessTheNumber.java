@@ -21,19 +21,19 @@ public class GuessTheNumber {
 
       if (guess > random) {
         System.out.println("Your number is bigger than our number.");
-
-        displayLives(--lives);
+        --lives;
 
         if (lives > 0) {
           System.out.println("Give it another go!");
         }
+        displayLives(lives);
       } else if (guess < random) {
         System.out.println("Your number is smaller than our number.");
-        displayLives(--lives);
-
+        --lives;
         if (lives > 0) {
           System.out.println("Give it another go!");
         }
+        displayLives(lives);
       } else {
         System.out.println("Yes! You guessed the number!");
         break;
@@ -47,9 +47,9 @@ public class GuessTheNumber {
   }
 
   static void displayLives(int n) {
-    StringBuilder sb = new StringBuilder(("You have " + n + " lives left: "));
+    StringBuilder sb = new StringBuilder(("You have " + n + " " + (n == 1 ? "life" : "lives") + " left: "));
 
-    for (int i=0; i<n; i++){
+    for (int i = 0; i < n; i++) {
       sb.append("❤");
     }
     System.out.println(sb);
