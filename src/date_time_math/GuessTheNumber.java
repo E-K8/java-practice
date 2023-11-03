@@ -52,6 +52,9 @@ public class GuessTheNumber {
     for (int i = 0; i < n; i++) {
       sb.append("❤");
     }
+//    or refactor as: ↓
+//    sb.append("❤".repeat(Math.max(0, n)));
+
     System.out.println(sb);
   }
 }
