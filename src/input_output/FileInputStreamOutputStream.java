@@ -18,7 +18,7 @@ public class FileInputStreamOutputStream {
   static String filePath = "C:/Users/E-Kate/Desktop/test.txt";
 
   public static void main(String[] args) throws FileNotFoundException, IOException {
-/*    try (FileOutputStream fos = new FileOutputStream(filePath, true)) {
+    try (FileOutputStream fos = new FileOutputStream(filePath, true)) {
       String sent = "\nJava vs Javascript\n";
       fos.write(67); // it will write a letter for this ASCII code ("C")
       fos.write(68); // "D"
@@ -26,9 +26,9 @@ public class FileInputStreamOutputStream {
       fos.write(sent.getBytes());
 
       fos.write(sent.getBytes(), 5, sent.length() - 5);
-    }*/
+    }
 
-    try(FileInputStream fis = new FileInputStream(filePath)) {
+    try (FileInputStream fis = new FileInputStream(filePath)) {
 //      First way to read the file
       byte[] bytes = fis.readAllBytes();
       String readText = new String(bytes);
@@ -43,8 +43,8 @@ public class FileInputStreamOutputStream {
 
 //      Third way
       int i;
-      while ((i=fis.read()) !=-1) {
-        System.out.println((char)i);
+      while ((i = fis.read()) != -1) {
+        System.out.println((char) i);
       }
     }
   }
