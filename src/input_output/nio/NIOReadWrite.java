@@ -19,7 +19,7 @@ public class NIOReadWrite {
   };
 
   public static void main(String[] args) throws IOException {
-    Path path = Path.of("KatesFolder", "KatesFIle.txt"); // folders don't exist, so there'll be an error
+    Path path = Path.of("C:/Users/E-Kate/Desktop/folderKate", "file.txt"); // it'll work provided there's a folder with this name on my desktop
     Files.write(path, bytes, StandardOpenOption.APPEND);
     Files.write(path, list, StandardOpenOption.APPEND);
     Files.writeString(path, str, StandardOpenOption.APPEND);
